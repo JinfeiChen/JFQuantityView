@@ -5,7 +5,7 @@
 
 # Usage
 
-    JFQuantity *productQuantityView = [[JFQuantityView alloc] initWithFrame:CGRectMake(0, 0, CGRectGetWidth(self.productEditingContainer.frame)-padding-deleteButtonWidth, 30)];
+    JFQuantity *productQuantityView = [[JFQuantityView alloc] initWithFrame:CGRectMake(0, 0, 100, 30)];
     productQuantityView.min = 1;
     productQuantityView.max = 50;
     productQuantityView.delegate = self;
